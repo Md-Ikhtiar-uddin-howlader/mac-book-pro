@@ -31,6 +31,7 @@ function applyPromoCode(){
         totalPrice = totalPriceWithOutPromo - discount;
 
         document.getElementById('promo-text').value = '';
+        document.getElementById('message').innerText = '';
     }
     else if (promoText != 'stevekaku'){
         document.getElementById('message').innerText = 'Please enter valid code.';
